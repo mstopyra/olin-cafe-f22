@@ -1,0 +1,36 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue Nov  1 17:49:36 2022
+[*]
+[dumpfile] "/home/mstopyra/Documents/COMPARCH/olin-cafe-f22/hws/5/pwm.fst"
+[dumpfile_mtime] "Tue Nov  1 17:22:07 2022"
+[dumpfile_size] 4258
+[savefile] "/home/mstopyra/Documents/COMPARCH/olin-cafe-f22/hws/5/wave_cfgs/waves_pwm.gtkw"
+[timestart] 0
+[size] 2011 1072
+[pos] 674 58
+*-19.303745 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_pwm.
+[sst_width] 233
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 300
+@28
+test_pwm.PULSE_GEN.clk
+test_pwm.PULSE_GEN.local_rst
+test_pwm.PULSE_GEN.rst
+test_pwm.PULSE_GEN.ena
+@22
+test_pwm.PWM.duty[3:0]
+test_pwm.PWM.counter[3:0]
+@28
+test_pwm.PWM.ena
+@29
+test_pwm.PWM.step
+@22
+test_pwm.PULSE_GEN.ticks[6:0]
+test_pwm.PULSE_GEN.counter_plus[6:0]
+@28
+test_pwm.PULSE_GEN.counter_comparator
+[pattern_trace] 1
+[pattern_trace] 0

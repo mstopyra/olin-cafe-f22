@@ -7,7 +7,7 @@ VVP_POST=-fst
 
 ADDER_SOURCES=hdl/adder_1.sv hdl/adder_n.sv
 
-test_comparators: tests/test_comparators.sv hdl/comparator_eq.sv hdl/comparator_lt.sv ${ADDER_SOURCES}
+test_comparators: tests/test_comparators.sv hdl/comparator_eq.sv hdl/comparator_lt.sv hdl/adder_n.sv hdl/adder_1.sv
 	${IVERILOG} $^ -o test_slt.bin && ${VVP} test_slt.bin ${VVP_POST}
 
 waves_comparator: test_comparators

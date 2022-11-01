@@ -7,6 +7,11 @@ output logic out;
 
 // Copy any other modules you use into the HDL folder and update the Makefile accordingly.
 
+always_comb begin
+    
+    out = &(a ~^ b); 
+
+end
 
 endmodule
 
